@@ -1,0 +1,32 @@
+{
+    "wake": {
+        "types": [
+            "time"
+        ],
+        "time": {
+            "min_time": {
+                "hour": 8,
+                "minute": 0
+            },
+            "max_time": {
+                "hour": 9,
+                "minute": 30
+            }
+        }
+    },
+    "sleep": {
+        "types": [
+            "time"
+        ],
+        "time": {
+            "min_time": {
+                "hour": 22,
+                "minute": 30
+            },
+            "max_time": {
+                "hour": 25,
+                "minute": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "swinging in the chair": {
+        "types": [
+            "replace"
+        ],
+        "replace": [
+            "sit upright"
+        ]
+    },
+    "wearing flip flops at home": {
+        "types": [
+            "replace"
+        ],
+        "replace": [
+            "walk barefoot at home",
+            "wear shoes at home",
+            "wear socks at home"
+        ]
+    },
+    "washing dishes one by one": {
+        "types": [
+            "replace"
+        ],
+        "replace": [
+            "wash dishes in bunches"
+        ]
+    }
+}

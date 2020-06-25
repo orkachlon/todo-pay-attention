@@ -1,0 +1,64 @@
+{
+    "shower": {
+        "types": [
+            "order",
+            "time"
+        ],
+        "order": [
+            "shampoo",
+            "soap",
+            "conditioner"
+        ],
+        "time": {
+            "min_time": {
+                "hour": 17,
+                "minute": 0
+            },
+            "max_time": {
+                "hour": 24,
+                "minute": 0
+            }
+        }
+    },
+    "morning routine": {
+        "types": [
+            "order",
+            "time"
+        ],
+        "order": [
+            "brush teeth",
+            "wash face",
+            "toilet"
+        ],
+        "time": {
+            "min_time": {
+                "hour": 8,
+                "minute": 30
+            },
+            "max_time": {
+                "hour": 9,
+                "minute": 30
+            }
+        }
+    },
+    "evening routine": {
+        "types": [
+            "order",
+            "time"
+        ],
+        "order": [
+            "brush teeth",
+            "toilet"
+        ],
+        "time": {
+            "min_time": {
+                "hour": 22,
+                "minute": 30
+            },
+            "max_time": {
+                "hour": 25,
+                "minute": 0
+            }
+        }
+    }
+}

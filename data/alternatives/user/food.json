@@ -1,0 +1,68 @@
+{
+    "breakfast": {
+        "types": [
+            "order",
+            "add",
+            "time"
+        ],
+        "order": [
+            "milk",
+            "cereal"
+        ],
+        "add": [
+            "fruit",
+            "vegetables"
+        ],
+        "time": {
+            "min_time": {
+                "hour": 8,
+                "minute": 30
+            },
+            "max_time": {
+                "hour": 9,
+                "minute": 30
+            }
+        }
+    },
+    "lunch": {
+        "types": [
+            "add",
+            "time"
+        ],
+        "add": [
+            "salad",
+            "fruit"
+        ],
+        "time": {
+            "min_time": {
+                "hour": 12,
+                "minute": 0
+            },
+            "max_time": {
+                "hour": 14,
+                "minute": 30
+            }
+        }
+    },
+    "supper": {
+        "types": [
+            "add",
+            "time"
+        ],
+        "add": [
+            "(vegan) cheese",
+            "eggs",
+            "bread"
+        ],
+        "time": {
+            "min_time": {
+                "hour": 19,
+                "minute": 0
+            },
+            "max_time": {
+                "hour": 21,
+                "minute": 0
+            }
+        }
+    }
+}

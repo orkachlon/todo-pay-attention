@@ -1,4 +1,6 @@
-data/
+data/alternatives/*
+data/schedules/
+!data/alternatives/user/
 presentation/
 .idea/
 __pycache__

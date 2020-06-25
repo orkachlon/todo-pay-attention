@@ -14,6 +14,10 @@ _NUM_CHANGES = 6
 # noinspection PyTypeChecker
 _CONTEXTS = list(ActionContexts)
 _DROP_COLUMNS = ['date']
+_USAGE_MSG = """Usage: {} [<options>]
+
+    -f                    use given schedule file
+    -u                    use given user's configuration files"""
 
 
 def parse_contents(row: pd.Series) -> dict:
@@ -104,5 +108,5 @@ if __name__ == '__main__':
             Action.username = sys.argv[2]
             main()
             exit(0)
-    print(f'Usage: {os.path.basename(__file__)} -f [schedule-name] | -u [username]', file=sys.stderr)
+    print(_USAGE_MSG.format(os.path.basename(__file__)), file=sys.stderr)
     exit(-1)

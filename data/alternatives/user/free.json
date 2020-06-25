@@ -1,0 +1,14 @@
+{
+    "*": {
+        "types": [
+            "replace"
+        ],
+        "replace": [
+            "go out for a run",
+            "watch a movie",
+            "draw something",
+            "play an instrument",
+            "read a book"
+        ]
+    }
+}
