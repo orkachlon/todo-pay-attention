@@ -1,6 +1,13 @@
-data/alternatives/*
-data/schedules/
-!data/alternatives/user/
-presentation/
+# IDE folders
 .idea/
 __pycache__
+
+# data files
+data/alternatives/*
+data/schedules/
+
+# include example files
+!data/alternatives/user/
+
+# presentation files
+presentation/
