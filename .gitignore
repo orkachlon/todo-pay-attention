@@ -10,4 +10,6 @@ data/schedules/
 !data/alternatives/user/
 
 # presentation files
-presentation/
+presentation/*.txt
+presentation/*.pptx
+presentation/ai_slides/*.ai
