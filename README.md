@@ -1,4 +1,4 @@
-# interactive-ml-project-2
+# TODO: Pay Attention
 Second project in the course 'Machine learning as a tool for interactive products'
 
 ## Description
