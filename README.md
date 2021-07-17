@@ -10,7 +10,7 @@ in order to encourage [Mindfulness](https://en.wikipedia.org/wiki/Mindfulness) i
 ### Dependencies
 
 #### OS
-This program has not been tested on any OS other than windows, however there is no OS specific code so it should run on any standard OS.
+This program has not been tested on any OS other than Windows, however there is no OS specific code so it should run on any standard OS.
 
 #### Python and Packages
 Python version 3.7 is required with the following packages:
